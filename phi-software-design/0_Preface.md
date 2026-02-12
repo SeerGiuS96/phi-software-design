@@ -1,7 +1,18 @@
-# Preface
+- # Preface
+  
+  La gente ha escrito programas electricos durante mas de 80 años, pero rara vez han hablado de como diseñar estos prograbas o como deberia de lucir un buen programa. Ha habido mucha discusion sobre el proceso del desarrollo de software con metodologias como agile, y herramientas como debuggers, control de version, y covertura de test. Tambien hay un extenso analisis de tecnicas de programar como orientada  a objetos, y programacion funcional, y patrones de diseño y algoritmos. Todos estas discusiones tiene valor, pero todavia hay una gran parte sin tocar. aunque en el 1971 David Parns menciono algo en "Decomposing system into modules", pero no ha progresado mas en 45 años.          El problema fundamental en la cienca de la computacion es la descomposicion: como hacer algo complejo dividirlo en piecas que se resuelvan independientemente.  Es el problema principal al que se enfrentan los programadores dia a dia, porque no se habla del diseño del software.  
+  hace referencia a un libro "Talent is Overrated by Geoff Colvin)." porque hay programadores buenos que si saben diseñar software pero no saben explicarlo.  
+ Entonces este autor, para buscar respuesta a todas estas preguntas decide crear un curso, se llama "CS 190" en la universidad de Standford.
 
-La gente ha escrito programas electricos durante mas de 80 años, pero rara vez han hablado de como diseñar estos prograbas o como deberia de lucir un buen programa. Ha habido mucha discusion sobre el proceso del desarrollo de software con metodologias como agile, y herramientas como debuggers, control de version, y covertura de test. Tambien hay un extenso analisis de tecnicas de programar como orientada  a objetos, y programacion funcional, y patrones de diseño y algoritmos. Todos estas discusiones tiene valor, pero todavia hay una gran parte sin tocar. aunque en el 1971 David Parns menciono algo en "Decomposing system into modules", pero no ha progresado mas en 45 años.          El problema fundamental en la cienca de la computacion es la descomposicion: como hacer algo complejo dividirlo en piecas que se resuelvan independientemente.  Es el problema principal al que se enfrentan los programadores dia a dia, porque no se habla del diseño del software.                  
-hace referencia a un libro "Talent is Overrated by Geoff Colvin)." porque hay programadores buenos que si saben diseñar software pero no saben explicarlo
--
-- ---
--
+ C1 Its all about complexity
+ escribir software es una de las actividades mas puras en la historia del humano. Los programadores no estamos limitados por la ley de la fisica. podemos crear exitantes palabras  virtuales con comportamientos que nunca podrian existir en el mundo real. Ademas, programacion no requiere habilidad fisica o coordinacion como futbol o baloncesto. Lo que requiere es:
+ una mente creative
+ la habilidad de organizar tus ideas.
+
+ La mayor limitacion de escribir software es entender lo que creamos. cuanto mas crezca, mas complicado es. Esto realentiza el desarrollo y añade costes. Cuanto mas grande, y mas gente trabaje ne el , mas dificil es de manejar.
+
+ Hay herramientas que ayudan a manejar la complejidad. Si reducimos complejidad, podemos construir mas sistemas potentes siendo barato. Cuanto mas sencillo sea el diseño mas grande podemos construir el proyecto.
+
+ hay 2 formas de conseguirlo, que se discutiran en este libro
+ - Eliminar la coplejidad haciendo codigo simple y obvio.
+ - encapsular, para que los programadores puedan seguir trabajando sin extar expuestos a la complejidad. esta tenica se llama trabajar por modulos. Estan diseñados para se relativamente independientes unos de otros, para que el programador pueda trabajar en un modulo sin tener que entender detalladamente los otros
