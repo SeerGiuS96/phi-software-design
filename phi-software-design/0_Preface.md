@@ -16,3 +16,13 @@
  hay 2 formas de conseguirlo, que se discutiran en este libro
  - Eliminar la coplejidad haciendo codigo simple y obvio.
  - encapsular, para que los programadores puedan seguir trabajando sin extar expuestos a la complejidad. esta tenica se llama trabajar por modulos. Estan diseñados para se relativamente independientes unos de otros, para que el programador pueda trabajar en un modulo sin tener que entender detalladamente los otros
+
+ Cambios grandes de diseño arquitetura son un reto mas que los sistemas fisicos. un ejempo claro se ve que un puente, no puedes cambiar los soportes en medio de la construccion.
+
+ Desarrollo incremental significa que el diseño del software nunca termina. El diseño ocurre continuamente sobre la vida de u nsistema.
+
+ El libro tiene 2 objetivos:
+ 1 que significa la "complejidad" y que hace. Por que importa y como reconocer cuando un programa tiene complejidad innecesaria.
+ 2. tecnicas aplicables durante el desarrollo para minimalizar complejidar. Desafortunadamente no hay una receta simple que garantize un buen diseño de sistema.
+
+ ### 1.1 how to use this book 
