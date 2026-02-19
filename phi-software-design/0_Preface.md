@@ -25,4 +25,16 @@
  1 que significa la "complejidad" y que hace. Por que importa y como reconocer cuando un programa tiene complejidad innecesaria.
  2. tecnicas aplicables durante el desarrollo para minimalizar complejidar. Desafortunadamente no hay una receta simple que garantize un buen diseño de sistema.
 
- ### 1.1 how to use this book 
+ ## 1.1 how to use this book 
+Muchos de los diseños descritos aqui son abstractos, asi que sera dificil apreciarlos sin ver codigo. Le ha sido dificil al autor encontrar ejemplos que sean lo suficientemente pequeños para incluirlos en el libro.
+
+La mejor forma de usar este libro es cojutnamente con revisiones de codigo. cuando revisas el codigo de otra persona, es mas facil de ver los problemas de diseño mas que en tu propio codigo.
+
+Para mejorar, el va a usar las red flags. si ves una, intenta refactorizarla buscando diseños alternativas antes de dar co nla que soluciona el problema. No te rindas facilmente, cuantos mas hagas, mas aprenderas.
+
+Cuando apliques alguna idea de este libro, es importante que te moderes y sean discretos. Cada regla tiene excepciones, y cada principio tiene sus limites. Si te pasas y lo llevas a un extremo probablemente acabe mal. Los diseños bonitos reflejan balance entre competing ideas y approaches. En muchas capitulos el autor ha puesto secciones "taking it too far" indicando cuando se "overdoing" una buena cosa.
+
+Todos los ejemplos estan en java o C++, y orientado a objetos. pero tambien estas ideas se pueden aplicar a lenguajes que no son orientado a objetos como C.
+
+# Chapter 2
+
