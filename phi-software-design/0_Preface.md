@@ -37,4 +37,12 @@ Cuando apliques alguna idea de este libro, es importante que te moderes y sean d
 Todos los ejemplos estan en java o C++, y orientado a objetos. pero tambien estas ideas se pueden aplicar a lenguajes que no son orientado a objetos como C.
 
 # Chapter 2
+En este libro, complejidad se define de una forma practica: Es cualquier cosa relacionada con la estructura del sistema de software que hace dificil entender y modificar el sistema.
 
+Se puede apareceder de muchas formas. por ejemplo, puede ser dificil entender un trozo de codigo.
+
+Los proyectos grandes suelen tener complejidades complejas por lo general si no se a pensado e nel diseño, pero tambien pequeños proyectos pueden tener complejidades grandes.
+
+[Inserta formula matematica] = C = Z Cp Tp
+
+2.2 Symptoms of complexity (pg 19-20)
