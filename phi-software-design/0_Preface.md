@@ -45,4 +45,9 @@ Los proyectos grandes suelen tener complejidades complejas por lo general si no 
 
 [Inserta formula matematica] = C = Z Cp Tp
 
-2.2 Symptoms of complexity (pg 19-20)
+2.2 Symptoms of complexity 
+La complejidad se manifesta de 3 formas
+- Change amplification/ Amplificacion de cambio: Pone de ejemplo cambiar el color de fondo de las diferentes paginas web que pueda tener un proyecto. lo normal en muchos proyectos, especifican el color en cada pagina. pero lo suyo seria reducir la cantidad de codigo a cambiar para hacer este cambio, especificandolo en un archivo el color y que las paginas tiren de ahi
+- Cognitive load: Se refiere a cuanto necesita conocer un programador para completar la tarea. cuanto mas complicado sea de entender lo que lleva esa parte del codiog, mas tiempo llevara
+- Unknown unkowns:
+Los diseñadores de sistemas asumen que la complejidad se asume en lineas de codigo. Un cambio de algo que esta en 3 lineas lo veran mas facil que el cambio que conlleva modificar 6 lineas.
