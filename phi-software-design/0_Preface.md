@@ -54,4 +54,10 @@ Los diseñadores de sistemas asumen que la complejidad se asume en lineas de cod
 El objetivo de un buen diseño deberia de "ser obvio". es lo contrario a alta carga cognifica y unkown unkowns. En un sistema asi, un developer puede hacer cambios facilmente.
 
 2.3 Causes of complexity
+Complejidad es causada por 2 cosas: dependencias y obscuridad. 
+Para la intencion de este libro, una dependencia existe cuando un trozo de codigo no puede ser entendido y modificado isoladamente; el codigo se relaciona de alguna forma con otro codigo.
+Tener depedencias es parte del software y no pueden ser eliminadas. de hecho, se introdujeron intencionadamente como parte del diseño de software.
 
+Obscuridad ocurre cuando la informacion importante no es obvio. para reducir la obscuridad ,solo s epuede hacer simplificando el diseño del sistema. Puede ayudar a que no haya obscuridad si hay una buena documentacion, pero, el codigo sencillo se entiende sin necesidad de documentacion.
+
+2.4 Complexity is incremental
