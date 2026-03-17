@@ -61,3 +61,4 @@ Tener depedencias es parte del software y no pueden ser eliminadas. de hecho, se
 Obscuridad ocurre cuando la informacion importante no es obvio. para reducir la obscuridad ,solo s epuede hacer simplificando el diseño del sistema. Puede ayudar a que no haya obscuridad si hay una buena documentacion, pero, el codigo sencillo se entiende sin necesidad de documentacion.
 
 2.4 Complexity is incremental
+Complejidad no sucede por un erro catastrofico. ocurre porque acumula muchos pequeños bloques de fallos. 1 sola depenndencia no va a afectar, pero cuando hay cientos o miles de pequeñas dependencias si.
